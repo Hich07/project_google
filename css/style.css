@@ -1,0 +1,111 @@
+* {
+	font-family: 'Roboto', sans-serif;
+	color: #414141;
+	font-size: 13px;
+}
+
+body {
+	background: url("http://img.phonandroid.com/2015/09/google-logo1.jpg") 50% 80%/50% 50%;
+	background-repeat: no-repeat;
+	background-size: 350px;
+}
+ 
+
+li {
+	list-style: none;
+	display: inline;
+
+}
+
+li a {
+	
+	margin: 8px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/*
+.image {
+	display: block; 
+	margin: auto;
+	position: relative;
+	width: 30%;
+	top: 50%;
+}
+*/
+
+/*#searchbar{position:fixed; width:1040px; height:25px; margin: auto; top: ;}*/
+#searchbar{position:fixed; left: 27%; bottom: 41%;}
+.formulaire               {display:inline-block;}
+.formulaire .champ       {width:600px; height:35px;}
+
+
+
+.bouton{
+	background-color: #eeeeee;
+	margin: 1%;
+	padding: 1%;
+}
+
+.bouton:hover,
+.bouton:focus {
+	transform: scale(5);
+	box-shadow: 0 0 65px #eeeeee inset, 0 0 20px #000000 inset, 0 0 15px #eeeeee;
+}
+
+
+.image {
+	display: block; 
+	margin: auto;
+	position: relative;
+	width: 30%;
+	top: 50%;
+}
+
+.haut {
+	position:fixed; left: 78%; top: 0;
+}
+
+
+.milieu {
+	text-align: center;
+	margin-top: 27%;
+	font-weight: bold;
+}
+
+.bas_gauche {
+	display: inline-block;
+	float: left;
+	list-style-type: none;
+}
+
+.bas_droit {
+	display: inline-block;
+	float: right;
+	list-style-type: none;
+}
+
+.footer {
+	list-style-type: none;
+    border-top: 1px #e4e4e4 solid;
+    overflow: hidden;
+    background-color: #eeeeee;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}	
+
+.petit {
+	width: 8%;
+}
+
+#petit {
+	width: 10%;
+}																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																									
