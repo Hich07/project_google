@@ -41,7 +41,7 @@ a:hover {
 */
 
 /*#searchbar{position:fixed; width:1040px; height:25px; margin: auto; top: ;}*/
-#searchbar{position:fixed; left: 27%; bottom: 41%;}
+#searchbar{position:fixed; left: 27%; bottom: 38%;}
 .formulaire               {display:inline-block;}
 .formulaire .champ       {width:600px; height:35px;}
 
@@ -51,6 +51,7 @@ a:hover {
 	background-color: #eeeeee;
 	margin: 1%;
 	padding: 1%;
+	cursor:pointer;
 }
 
 .bouton:hover,
@@ -73,7 +74,7 @@ a:hover {
 }
 
 
-.milieu {
+#milieu {
 	text-align: center;
 	margin-top: 27%;
 	font-weight: bold;
@@ -108,4 +109,5 @@ a:hover {
 
 #petit {
 	width: 10%;
-}																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																									
+}					
+
