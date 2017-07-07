@@ -2,9 +2,8 @@
     alert('Aïe, arrêtez de cliquer !!');
 }
 */
-//<button onload="document.getElementByClass('milieu').innerHTML=Date()">The time is?</button>
 
-/*function afficher_cacher(id)
+function afficher_cacher(id)
 {
     if(document.getElementById(id).style.visibility=="hidden")
     {
@@ -18,9 +17,10 @@
     }
     return true;
 }
-*/
-/*document.querySelector('html').onclick = function() {
+
+
+document.querySelector('html').onclick = function() {
  afficher_cacher('milieu');
-}
-*/
-document.getElementById('milieu').style.visibility = "hidden";
+
+
+/*document.getElementById('milieu').style.visibility = "hidden";*/
